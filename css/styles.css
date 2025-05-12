@@ -1,0 +1,34 @@
+/*style landing page here*/
+body {
+    background-color: #1d1a44; /* change background color here*/
+    color: #ad8d8d; /* change text color */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+    border: 8px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+
+/* style landing page title here*/
+h1{
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 2.5rem;
+}
+
+/* style search bar box here*/
+searchBar{
+    text-align: center;
+}
+
+/* style title box here*/
+.page-container{
+    border: 4px solid #555;
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: 800px;
+    background-color:rgb(124, 33, 33);
+    box-shadow: 0 0 10px rgba(247, 244, 244, 0.5);
+}

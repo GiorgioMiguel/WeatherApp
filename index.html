@@ -1,0 +1,45 @@
+<!--
+HTML is like the skeleton of my webpage (a markup language), it doesn't dictate any logic, however, it is like a layout of what things are and where they need to be
+Most of the lines (elements) are enclosed by:
+                                                <tagname> ...content goes here... </tagname>
+Common Tag  Type:
+            <html>      Root element of the HTML file
+            <head>      Metadata, links, title, etc.
+            <body>      All visible page content
+            <p>         paragraph
+            <a>         anchor (links)
+            <img>       image
+            <div>       generic container
+            <script>    For javascript files
+            <link>      For CSS stylesheets
+-->
+
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Weather Dashboard</title> <!--This "title" is only visible within the browser's search bar, not the website itself, hence why it is outside body-->
+        <link rel="stylesheet" href="css/styles.css" />
+    </head>
+
+    <body>
+        <div class="page-container">
+            <div>
+                <h1>Welcome to the Weather Station</h1> <!--This "title" is only visible on the website, that's why it is inside body-->
+                <!--UI GOES HERE-->
+                 
+            </div>
+        </div>
+    <script src="js/main.js"></script>
+    </body>
+
+
+    <searchBar>
+    <div class="page-container">
+           <input type="text" placeholder="Enter ZIP Code"/>
+           <button>Search</button>
+    </div> 
+    </searchBar>
+</html>
+        
