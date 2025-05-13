@@ -16,6 +16,7 @@ Common Tag  Type:
 
 <!DOCTYPE html>
 <html lang = "en">
+    
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -24,22 +25,23 @@ Common Tag  Type:
     </head>
 
     <body>
+
         <div class="page-container">
-            <div>
-                <h1>Welcome to the Weather Station</h1> <!--This "title" is only visible on the website, that's why it is inside body-->
-                <!--UI GOES HERE-->
-                 
+            <div id = "page-header">
+                Welcome to the Weather Station <!--This is the "title"--> 
             </div>
         </div>
-    <script src="js/main.js"></script>
+
+        <div class="page-container">
+            <div id="search-bar">
+                <input type="text" placeholder="Enter ZIP Code"/>
+                <button>Search</button>
+            </div>
+        </div>   
+
+        <script src="js/main.js"></script>
+    
     </body>
 
-
-    <searchBar>
-    <div class="page-container">
-           <input type="text" placeholder="Enter ZIP Code"/>
-           <button>Search</button>
-    </div> 
-    </searchBar>
 </html>
         
